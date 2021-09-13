@@ -2,7 +2,7 @@
 
 ## TODO:
 
-- [x] renovate
+- [x] self-hosted renovate
 - [ ] storybook
 - [x] workspaces
 - [x] redux
@@ -11,4 +11,4 @@
 - [x] ci tests
 - [ ] ci build
 - [x] css-in-js (astroturf)
-- [ ] tailwind
+<!-- - [ ] tailwind -->
