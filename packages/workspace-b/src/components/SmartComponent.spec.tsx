@@ -15,6 +15,7 @@ function createAppTestBed() {
 
   return { wrapper };
 }
+
 describe('<ExampleComponent />', () => {
   it('should render correctly', () => {
     const { wrapper } = createAppTestBed();

@@ -1,8 +1,11 @@
+const {
+  dependencies: { react: reactVersion },
+} = require('./packages/workspace-a/package.json');
+
 module.exports = {
   env: {
     browser: true,
     es6: true,
-    amd: true,
     node: true,
   },
   extends: [
@@ -19,8 +22,6 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 0,
   },
   settings: {
-    react: {
-      version: '16.14.0',
-    },
+    react: { version: reactVersion },
   },
 };
