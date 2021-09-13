@@ -1,11 +1,14 @@
 {
   "name": "web-app",
+  "version": "0.0.0",
+  "author": "Oleg Shilov <me@olegshilov.com>",
+  "license": "MIT",
   "private": true,
   "source": true,
   "scripts": {
     "start": "yarn webpack serve",
-    "start:parcel": "yarn parcel ./src/index.html",
-    "build": "yarn webpack"
+    "build": "yarn clean && NODE_ENV=production yarn webpack build",
+    "clean": "yarn rimraf ./dist"
   },
   "dependencies": {
     "@blueprintjs/core": "3.49.1",
@@ -30,11 +33,14 @@
     "cssnano": "5.0.8",
     "fork-ts-checker-webpack-plugin": "6.3.3",
     "html-webpack-plugin": "5.3.2",
+    "mini-css-extract-plugin": "2.3.0",
     "normalize.css": "8.0.1",
     "postcss": "8.3.6",
     "postcss-loader": "6.1.1",
     "postcss-preset-env": "6.7.0",
+    "rimraf": "3.0.2",
     "style-loader": "3.2.1",
+    "terser-webpack-plugin": "5.2.3",
     "ts-loader": "9.2.5",
     "typescript": "4.4.3",
     "webpack": "5.52.1",

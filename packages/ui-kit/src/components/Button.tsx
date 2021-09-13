@@ -1,9 +1,11 @@
 import styled from 'astroturf/react';
 
-export const Button = styled<
-  'button',
-  { primary?: boolean; color?: 'green' | 'red' }
->('button')`
+interface ButtonProps {
+  primary?: boolean;
+  color?: 'green' | 'red';
+}
+
+export const Button = styled<'button', ButtonProps>('button')`
   --button-color: black;
   --button-border-color: black;
   --button-color-red: red;

@@ -42,7 +42,7 @@ jobs:
           path: coverage
 
   build:
-    name: Build Web application
+    name: Build Web Application
     needs: test_and_lint
     runs-on: ubuntu-latest
     if: ${{ !contains(github.event.head_commit.message, '[ci skip]') }}
