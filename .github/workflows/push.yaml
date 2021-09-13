@@ -16,7 +16,7 @@ env:
 
 jobs:
   test_and_lint:
-    name: Test and lint
+    name: Test and Lint
     runs-on: ubuntu-latest
     if: ${{ !contains(github.event.head_commit.message, '[ci skip]') }}
     steps:
@@ -35,9 +35,14 @@ jobs:
         run: yarn lint
       - name: Run tests
         run: yarn test
+      - name: Archive coverage report
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage
+          path: coverage
 
   build:
-    name: Build web-app
+    name: Build Web application
     needs: test_and_lint
     runs-on: ubuntu-latest
     if: ${{ !contains(github.event.head_commit.message, '[ci skip]') }}
