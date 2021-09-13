@@ -1,4 +1,5 @@
 const path = require('path');
+const { DefinePlugin } = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
@@ -85,6 +86,13 @@ module.exports = {
     ],
   },
   plugins: [
+    new DefinePlugin({
+      global: JSON.stringify({}),
+      'process.env': JSON.stringify({}),
+      'process.env.NODE_ENV': JSON.stringify(
+        process.env.NODE_ENV ?? 'development',
+      ),
+    }),
     new HtmlPlugin({
       title: 'ReactRedux Application',
       template: path.resolve(__dirname, 'src/index.html'),

@@ -1,4 +1,5 @@
 module.exports = {
+  modules: true,
   plugins: [
     [
       require.resolve('postcss-preset-env'),
