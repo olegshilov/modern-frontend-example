@@ -1,6 +1,6 @@
 const {
   dependencies: { react: reactVersion },
-} = require('./packages/workspace-a/package.json');
+} = require('./packages/web-app/package.json');
 
 module.exports = {
   env: {

@@ -1,14 +1,14 @@
 import React, { ReactElement } from 'react';
 import { Button, Intent } from '@blueprintjs/core';
 
-interface ComponentUsesBPProps {
+interface BlueprintButtonProps {
   onClick?: () => void;
   children?: string;
 }
 
-export function ComponentUsesBP({
+export function BlueprintButton({
   onClick,
   children,
-}: ComponentUsesBPProps): ReactElement {
+}: BlueprintButtonProps): ReactElement {
   return <Button text={children} intent={Intent.SUCCESS} onClick={onClick} />;
 }

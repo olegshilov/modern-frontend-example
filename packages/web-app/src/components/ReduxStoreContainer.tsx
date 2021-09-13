@@ -8,17 +8,17 @@ import {
   Middleware,
 } from 'redux';
 import { createLogger } from 'redux-logger';
-import { exampleReducer, ExampleState, ExampleAction } from 'workspace-b';
+import { featureReducer, FeatureState, FeatureAction } from 'web-app-feature';
 
 export interface RootState {
-  example: ExampleState;
+  feature: FeatureState;
 }
 
-export type RootActions = ExampleAction;
+export type RootActions = FeatureAction;
 
 export function useReduxStore(): Store<RootState, RootActions> {
   const rootReducer = combineReducers({
-    example: exampleReducer,
+    feature: featureReducer,
   });
   const loggerMiddleware = createLogger({
     collapsed: true,

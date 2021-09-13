@@ -14,8 +14,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn workspace workspace-a start",
-    "build": "yarn workspace workspace-a build",
+    "start": "yarn workspace web-app start",
+    "build": "yarn workspace web-app build",
     "test": "yarn jest --coverage",
     "lint": "yarn eslint packages/ --ext ts,js,tsx,jsx",
     "format": "yarn prettier --write '**/**/*.{css,json,json5,md,html,yaml,yml,ts,js,tsx,jsx}'"

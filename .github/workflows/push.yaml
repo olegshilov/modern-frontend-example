@@ -1,0 +1,60 @@
+name: Push workflow
+
+on:
+  - push
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: push-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: '14'
+
+jobs:
+  test_and_lint:
+    name: Test and lint
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, '[ci skip]') }}
+    steps:
+      - name: Clone
+        uses: actions/checkout@v2.3.4
+      - name: Install node
+        uses: actions/setup-node@v2.2.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'yarn'
+      - name: Install dependencies
+        run: yarn
+      # - name: Print envinfo
+      #   run: yarn envinfo
+      - name: Run linters
+        run: yarn lint
+      - name: Run tests
+        run: yarn test
+
+  build:
+    name: Build web-app
+    needs: test_and_lint
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, '[ci skip]') }}
+    steps:
+      - name: Clone
+        uses: actions/checkout@v2.3.4
+      - name: Install node
+        uses: actions/setup-node@v2.2.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'yarn'
+      - name: Install dependencies
+        run: yarn
+      - name: Build
+        run: yarn build
+      - name: Archive artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: web-app
+          path: packages/web-app/dist

@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import { ReduxStoreContainer } from './ReduxStoreContainer';
-import { ExampleActionsContainer } from 'workspace-b';
+import { FeatureActionsContainer } from 'web-app-feature';
 import { App } from './App';
 
 export function AppContainer({
@@ -10,7 +10,7 @@ export function AppContainer({
 }): ReactElement {
   return (
     <ReduxStoreContainer>
-      <ExampleActionsContainer>{children}</ExampleActionsContainer>
+      <FeatureActionsContainer>{children}</FeatureActionsContainer>
     </ReduxStoreContainer>
   );
 }

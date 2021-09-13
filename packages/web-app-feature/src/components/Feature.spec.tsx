@@ -1,14 +1,14 @@
 import React, { ReactNode, ReactElement } from 'react';
 import { render } from '@testing-library/react';
-import { SmartComponent } from './SmartComponent';
-import { ReduxStoreContainer } from '../../../workspace-a/src/components/ReduxStoreContainer';
-import { ExampleActionsContainer } from '../redux/ExampleActionsContainer';
+import { Feature } from './Feature';
+import { ReduxStoreContainer } from '../../../web-app/src/components/ReduxStoreContainer';
+import { FeatureActionsContainer } from '../redux/FeatureActionsContainer';
 
 function createAppTestBed() {
   const wrapper = ({ children }: { children?: ReactNode }): ReactElement => {
     return (
       <ReduxStoreContainer>
-        <ExampleActionsContainer>{children}</ExampleActionsContainer>
+        <FeatureActionsContainer>{children}</FeatureActionsContainer>
       </ReduxStoreContainer>
     );
   };
@@ -19,7 +19,7 @@ function createAppTestBed() {
 describe('<ExampleComponent />', () => {
   it('should render correctly', () => {
     const { wrapper } = createAppTestBed();
-    const { getByText } = render(<SmartComponent isBold />, { wrapper });
+    const { getByText } = render(<Feature />, { wrapper });
 
     expect(getByText('increment')).toBeTruthy();
     expect(getByText('decrement')).toBeTruthy();

@@ -32,33 +32,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          {
-            loader: require.resolve('style-loader'),
-          },
-          {
-            loader: require.resolve('css-loader'),
-            options: {
-              modules: true,
-              importLoaders: 1,
-            },
-          },
-          {
-            loader: require.resolve('postcss-loader'),
-            options: {
-              postcssOptions: {
-                config: path.resolve(__dirname, 'postcss.config.js'),
-              },
-            },
-          },
-        ],
-        exclude: /node_modules/,
-      },
-      {
-        test: /\.css$/,
-        use: [
-          {
-            loader: require.resolve('style-loader'),
-          },
+          require.resolve('style-loader'),
           {
             loader: require.resolve('css-loader'),
             options: {
@@ -67,21 +41,12 @@ module.exports = {
           },
           {
             loader: require.resolve('postcss-loader'),
-            options: {
-              postcssOptions: {
-                config: path.resolve(__dirname, 'postcss.config.js'),
-              },
-            },
           },
-        ],
-        include: [
-          /normalize\.css\/normalize\.css/,
-          /@blueprintjs\/core\/lib\/css\/blueprint\.css/,
         ],
       },
       {
-        test: /\.(png|svg|gif|jpe?g|mp3|ttf|eot|woff|woff2|webm|mp4)$/,
-        use: require.resolve('file-loader'),
+        test: /\.(png|svg|gif|jpe?g|mp3|ttf|eot|woff|woff2|webm|mp4|wasm)$/,
+        type: 'asset/resource',
       },
     ],
   },

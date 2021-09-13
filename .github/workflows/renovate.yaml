@@ -5,6 +5,7 @@ on:
     - cron: '0 */3 * * *'
 jobs:
   renovate:
+    name: Check dependencies
     runs-on: ubuntu-latest
     steps:
       - name: Clone
