@@ -481,12 +481,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:3.49.1":
-  version: 3.49.1
-  resolution: "@blueprintjs/core@npm:3.49.1"
+"@blueprintjs/core@npm:3.50.0":
+  version: 3.50.0
+  resolution: "@blueprintjs/core@npm:3.50.0"
   dependencies:
     "@blueprintjs/colors": ^3.0.0
-    "@blueprintjs/icons": ^3.29.0
+    "@blueprintjs/icons": ^3.30.0
     "@types/dom4": ^2.0.1
     classnames: ^2.2
     dom4: ^2.1.5
@@ -503,17 +503,17 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 751584a35ab5e6a3fe2519602fe9937009b1d3ff5416c2f0c83545ecd0c4d6ccc2f33a50a0291549650727ed4d52a3cd249f8b0b35e01390c7bcb9e68edeff3a
+  checksum: 167b92d12f98bffd5ffb0668a8a526eee3393c4bdf21f09cdeea9b23776064a12f9cd9685b874531009fffd78ad361499a82ef4a216a980b6afba7055d959fac
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^3.29.0":
-  version: 3.29.0
-  resolution: "@blueprintjs/icons@npm:3.29.0"
+"@blueprintjs/icons@npm:^3.30.0":
+  version: 3.30.0
+  resolution: "@blueprintjs/icons@npm:3.30.0"
   dependencies:
     classnames: ^2.2
     tslib: ~1.13.0
-  checksum: 0bc17111357d66fa86e8a02c8efb58ce368f60f61f9d8393cb5324d64a23af4897d715c20b34a87007bf4f43afc113ae8d805f87d39b31d1fd04d83821179668
+  checksum: 2e427074abc7911a4ee03597d9091925c9b7f36b80eaa03e3e9ac579afe2ff0ce91d1cd12022a02d4cb84cea1aa67feb876438d33a017ca20957ab75ae75cef6
   languageName: node
   linkType: hard
 
@@ -9052,7 +9052,7 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "ui-kit@workspace:packages/ui-kit"
   dependencies:
-    "@blueprintjs/core": 3.49.1
+    "@blueprintjs/core": 3.50.0
     "@testing-library/react": 12.1.0
     "@types/jest": 27.0.1
     "@types/react": 17.0.21
@@ -9290,7 +9290,7 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "web-app@workspace:packages/web-app"
   dependencies:
-    "@blueprintjs/core": 3.49.1
+    "@blueprintjs/core": 3.50.0
     "@testing-library/react": 12.1.0
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.1
