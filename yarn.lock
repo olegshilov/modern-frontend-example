@@ -474,19 +474,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/colors@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@blueprintjs/colors@npm:3.0.0"
-  checksum: 2f6d2e8595b490210b317f9ab5fb8e8ccc7254b24999efb1d4164576ae7a301728f4999d42b8a0140c7d8f95a17b5a71f7d9f2191ea4e8b8c0e67ea098786a21
+"@blueprintjs/colors@npm:^5.0.0-alpha.0":
+  version: 5.0.0-alpha.0
+  resolution: "@blueprintjs/colors@npm:5.0.0-alpha.0"
+  checksum: 4a15333f3467560cfe0f4089f32ea6d46bc584f5c11a3054eb4708171112f046239f4338fd56a7b23e485759a9f656f228db570b05ae27a53a2a24f4587d7c5f
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:3.50.0":
-  version: 3.50.0
-  resolution: "@blueprintjs/core@npm:3.50.0"
+"@blueprintjs/core@npm:3.50.1":
+  version: 3.50.1
+  resolution: "@blueprintjs/core@npm:3.50.1"
   dependencies:
-    "@blueprintjs/colors": ^3.0.0
-    "@blueprintjs/icons": ^3.30.0
+    "@blueprintjs/colors": ^5.0.0-alpha.0
+    "@blueprintjs/icons": ^3.30.1
     "@types/dom4": ^2.0.1
     classnames: ^2.2
     dom4: ^2.1.5
@@ -503,17 +503,17 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 167b92d12f98bffd5ffb0668a8a526eee3393c4bdf21f09cdeea9b23776064a12f9cd9685b874531009fffd78ad361499a82ef4a216a980b6afba7055d959fac
+  checksum: 3fe19040961af92ffa71aeb9d84015df00cff43f78c5d86f1d830b60c903a7ce639704bef670f2cd4cb7332ff45c7551020251f3cded990c1cd98bd8f2850753
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^3.30.0":
-  version: 3.30.0
-  resolution: "@blueprintjs/icons@npm:3.30.0"
+"@blueprintjs/icons@npm:^3.30.1":
+  version: 3.30.1
+  resolution: "@blueprintjs/icons@npm:3.30.1"
   dependencies:
     classnames: ^2.2
     tslib: ~1.13.0
-  checksum: 2e427074abc7911a4ee03597d9091925c9b7f36b80eaa03e3e9ac579afe2ff0ce91d1cd12022a02d4cb84cea1aa67feb876438d33a017ca20957ab75ae75cef6
+  checksum: 63f0965a0d8638daebe73a6b14eb4ca6ec807f086f9ee01f3d1350866a9bcb98dc9e5a05d2727be92dc3d7c605a82a4b7b7e0f57fe89a4321c5e6910c7b5960c
   languageName: node
   linkType: hard
 
@@ -3501,9 +3501,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.25.1":
-  version: 7.25.1
-  resolution: "eslint-plugin-react@npm:7.25.1"
+"eslint-plugin-react@npm:7.25.2":
+  version: 7.25.2
+  resolution: "eslint-plugin-react@npm:7.25.2"
   dependencies:
     array-includes: ^3.1.3
     array.prototype.flatmap: ^1.2.4
@@ -3520,7 +3520,7 @@ __metadata:
     string.prototype.matchall: ^4.0.5
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7
-  checksum: e22ffbb6d336558cab38717c8c6199b72635500b9bd909891ba45865adae5846912a2b3daa355b0c1b1bfe6664b28ee277c14943acc739e703316eff87c1fce4
+  checksum: 79ae67ace68e3a98ebc2f133c995a470e8d84a86c5d0ecf99ee46a9697dbb8f3a76ee351c49ecdbab4acf729392b39df9562116f63cb929247dd273d50d22662
   languageName: node
   linkType: hard
 
@@ -6119,7 +6119,7 @@ __metadata:
     eslint: 7.32.0
     eslint-config-prettier: 8.3.0
     eslint-plugin-prettier: 4.0.0
-    eslint-plugin-react: 7.25.1
+    eslint-plugin-react: 7.25.2
     eslint-plugin-react-hooks: 4.2.0
     identity-obj-proxy: 3.0.0
     jest: 27.2.0
@@ -9052,7 +9052,7 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "ui-kit@workspace:packages/ui-kit"
   dependencies:
-    "@blueprintjs/core": 3.50.0
+    "@blueprintjs/core": 3.50.1
     "@testing-library/react": 12.1.0
     "@types/jest": 27.0.1
     "@types/react": 17.0.21
@@ -9290,7 +9290,7 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "web-app@workspace:packages/web-app"
   dependencies:
-    "@blueprintjs/core": 3.50.0
+    "@blueprintjs/core": 3.50.1
     "@testing-library/react": 12.1.0
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.1
