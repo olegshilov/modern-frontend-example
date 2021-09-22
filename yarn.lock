@@ -6178,7 +6178,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.1.23":
+"nanocolors@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "nanocolors@npm:0.1.5"
+  checksum: 032c12a5d8d901a3a59679db1f906d258080352ce6a5ea7a90df033fe969d1257f63000bc37c9562d068ba0c980f629868e9698e69511c9761080d030a6bc7b1
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^3.1.23, nanoid@npm:^3.1.25":
   version: 3.1.25
   resolution: "nanoid@npm:3.1.25"
   bin:
@@ -7518,7 +7525,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.6, postcss@npm:^8.2.15, postcss@npm:^8.2.8":
+"postcss@npm:8.3.7":
+  version: 8.3.7
+  resolution: "postcss@npm:8.3.7"
+  dependencies:
+    nanocolors: ^0.1.5
+    nanoid: ^3.1.25
+    source-map-js: ^0.6.2
+  checksum: 6b8c80611045787efa9900b1a278ec71393a12530a1c1f14baadcd6076e753791edd9bb9ef36c258cac450bc95dc3542ce2a4b6f21d5087875b91daa87422fc5
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.2.15, postcss@npm:^8.2.8":
   version: 8.3.6
   resolution: "postcss@npm:8.3.6"
   dependencies:
@@ -9316,7 +9334,7 @@ typescript@4.4.3:
     html-webpack-plugin: 5.3.2
     mini-css-extract-plugin: 2.3.0
     normalize.css: 8.0.1
-    postcss: 8.3.6
+    postcss: 8.3.7
     postcss-loader: 6.1.1
     postcss-preset-env: 6.7.0
     react: 17.0.2
