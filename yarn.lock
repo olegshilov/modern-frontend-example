@@ -1176,14 +1176,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.22":
-  version: 17.0.22
-  resolution: "@types/react@npm:17.0.22"
+"@types/react@npm:17.0.24":
+  version: 17.0.24
+  resolution: "@types/react@npm:17.0.24"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 691c7abda8f5b16d26f6b9940f75e6a9831f12d5ca070e62391454c26fd1a3d0dbe64e0199655773e0389e35e7c7984fa8a06c4561d3164562cd167f60c759e6
+  checksum: 99383e2cbaa85831984cc17ec4a5fe7fd091aa21ef023855570440d8d0b5038efb8159701e8e2a0f6ddff3efae655922ded690190e7d172653608cbde016cb66
   languageName: node
   linkType: hard
 
@@ -6113,7 +6113,7 @@ __metadata:
   resolution: "modern-frontend-example@workspace:."
   dependencies:
     "@types/jest": 27.0.2
-    "@types/react": 17.0.22
+    "@types/react": 17.0.24
     "@typescript-eslint/eslint-plugin": 4.31.2
     "@typescript-eslint/parser": 4.31.2
     envinfo: 7.8.1
@@ -9066,7 +9066,7 @@ typescript@4.4.3:
     "@blueprintjs/core": 3.50.2
     "@testing-library/react": 12.1.0
     "@types/jest": 27.0.2
-    "@types/react": 17.0.22
+    "@types/react": 17.0.24
     "@types/react-dom": 17.0.9
     astroturf: 1.0.0-beta.22
     react: 17.0.2
@@ -9283,7 +9283,7 @@ typescript@4.4.3:
   dependencies:
     "@testing-library/react": 12.1.0
     "@types/jest": 27.0.2
-    "@types/react": 17.0.22
+    "@types/react": 17.0.24
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.18
     astroturf: 1.0.0-beta.22
@@ -9305,7 +9305,7 @@ typescript@4.4.3:
     "@testing-library/react": 12.1.0
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.2
-    "@types/react": 17.0.22
+    "@types/react": 17.0.24
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.18
     "@types/redux-logger": 3.0.9
