@@ -474,19 +474,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/colors@npm:^5.0.0-alpha.0":
-  version: 5.0.0-alpha.0
-  resolution: "@blueprintjs/colors@npm:5.0.0-alpha.0"
-  checksum: 4a15333f3467560cfe0f4089f32ea6d46bc584f5c11a3054eb4708171112f046239f4338fd56a7b23e485759a9f656f228db570b05ae27a53a2a24f4587d7c5f
+"@blueprintjs/colors@npm:^4.0.0-alpha.0":
+  version: 4.0.0-alpha.0
+  resolution: "@blueprintjs/colors@npm:4.0.0-alpha.0"
+  checksum: 231a6372e913e6e0d444e7424d785eda66dda3d923c2914d317b8c8305b27a676045da7ec9ba216ed61cbb738b9a08dc9be12ef3d17531e0aed7c8b12dac624d
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:3.50.2":
-  version: 3.50.2
-  resolution: "@blueprintjs/core@npm:3.50.2"
+"@blueprintjs/core@npm:3.50.3":
+  version: 3.50.3
+  resolution: "@blueprintjs/core@npm:3.50.3"
   dependencies:
-    "@blueprintjs/colors": ^5.0.0-alpha.0
-    "@blueprintjs/icons": ^3.30.1
+    "@blueprintjs/colors": ^4.0.0-alpha.0
+    "@blueprintjs/icons": ^3.30.2
     "@types/dom4": ^2.0.1
     classnames: ^2.2
     dom4: ^2.1.5
@@ -503,17 +503,17 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 5f875eea2d97bfa1cb41ca8720fc08792ace22bf365ef6059642ca2d17d9aedaefbdba1b747b5add587acf127acdb45fbda59bad9b266eeba1e13dad5d86b9e2
+  checksum: 92b54e0292e937caad0255bfdab818c07b3cb2634c95a326d4e17957f5087d6855b8d1c64952fd481d9ef848e0cb04e9e33145d631203165502109df14da0641
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^3.30.1":
-  version: 3.30.1
-  resolution: "@blueprintjs/icons@npm:3.30.1"
+"@blueprintjs/icons@npm:^3.30.2":
+  version: 3.30.2
+  resolution: "@blueprintjs/icons@npm:3.30.2"
   dependencies:
     classnames: ^2.2
     tslib: ~1.13.0
-  checksum: 63f0965a0d8638daebe73a6b14eb4ca6ec807f086f9ee01f3d1350866a9bcb98dc9e5a05d2727be92dc3d7c605a82a4b7b7e0f57fe89a4321c5e6910c7b5960c
+  checksum: 06e3573eaf043550ac1f7f0119a27254caaa0cf4ddee248a14641fa4f96a4227df1e1e1b37142853d05bc77393d44ebaca3864c6d6c12e5140567cd182c8346c
   languageName: node
   linkType: hard
 
@@ -895,16 +895,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@testing-library/react@npm:12.1.0"
+"@testing-library/react@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@testing-library/react@npm:12.1.1"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@testing-library/dom": ^8.0.0
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: 84ab074f12dbea82e5b08b976a6471c3a7d71629c72c895b661a2652d2b136cbc3de91f7152ca9e1485255c54f39acfa2ff2982ac20f94cf63f5eb84319c56d5
+  checksum: 1882161426854801a9e5b00c6e50e76b813c22158c8a45c36b87d0aeab4d6ce0920387f8f738562bb693ec217a5885641ef82f0a135cddcde870edda097f2ebb
   languageName: node
   linkType: hard
 
@@ -9147,8 +9147,8 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "ui-kit@workspace:packages/ui-kit"
   dependencies:
-    "@blueprintjs/core": 3.50.2
-    "@testing-library/react": 12.1.0
+    "@blueprintjs/core": 3.50.3
+    "@testing-library/react": 12.1.1
     "@types/jest": 27.0.2
     "@types/react": 17.0.24
     "@types/react-dom": 17.0.9
@@ -9365,7 +9365,7 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "web-app-feature@workspace:packages/web-app-feature"
   dependencies:
-    "@testing-library/react": 12.1.0
+    "@testing-library/react": 12.1.1
     "@types/jest": 27.0.2
     "@types/react": 17.0.24
     "@types/react-dom": 17.0.9
@@ -9385,8 +9385,8 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "web-app@workspace:packages/web-app"
   dependencies:
-    "@blueprintjs/core": 3.50.2
-    "@testing-library/react": 12.1.0
+    "@blueprintjs/core": 3.50.3
+    "@testing-library/react": 12.1.1
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.2
     "@types/react": 17.0.24
