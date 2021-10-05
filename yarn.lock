@@ -6259,19 +6259,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanocolors@npm:^0.2.2":
-  version: 0.2.3
-  resolution: "nanocolors@npm:0.2.3"
-  checksum: e2167b904cec141dcb0ec869a59ca3027403559c3ba0b546eb1c85e89056fd6d77795e891160ca527119a4d88c52f33d51dc3ddf7825594b7ca8392ffc1ad9d5
-  languageName: node
-  linkType: hard
-
-"nanoid@npm:^3.1.23, nanoid@npm:^3.1.25":
+"nanoid@npm:^3.1.23":
   version: 3.1.25
   resolution: "nanoid@npm:3.1.25"
   bin:
     nanoid: bin/nanoid.cjs
   checksum: e2353828c7d8fde65265e9c981380102e2021f292038a93fd27288bad390339833286e8cbc7531abe1cb2c6b317e55f38b895dcb775151637bb487388558e0ff
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^3.1.28":
+  version: 3.1.28
+  resolution: "nanoid@npm:3.1.28"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: ae2fa9f3ce7a690ec62fc2fdf92345f023b20db760024f767c25ad392bde6414dc0b44a8e66dc1209426f36e4771e63b09ad2b49d8f1b04063b37e21b46af8d0
   languageName: node
   linkType: hard
 
@@ -6792,6 +6794,13 @@ __metadata:
   version: 4.0.0
   resolution: "path-type@npm:4.0.0"
   checksum: 5b1e2daa247062061325b8fdbfd1fb56dde0a448fb1455453276ea18c60685bdad23a445dc148cf87bc216be1573357509b7d4060494a6fd768c7efad833ee45
+  languageName: node
+  linkType: hard
+
+"picocolors@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "picocolors@npm:0.2.1"
+  checksum: 3b0f441f0062def0c0f39e87b898ae7461c3a16ffc9f974f320b44c799418cabff17780ee647fda42b856a1dc45897e2c62047e1b546d94d6d5c6962f45427b2
   languageName: node
   linkType: hard
 
@@ -7599,14 +7608,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.8":
-  version: 8.3.8
-  resolution: "postcss@npm:8.3.8"
+"postcss@npm:8.3.9":
+  version: 8.3.9
+  resolution: "postcss@npm:8.3.9"
   dependencies:
-    nanocolors: ^0.2.2
-    nanoid: ^3.1.25
+    nanoid: ^3.1.28
+    picocolors: ^0.2.1
     source-map-js: ^0.6.2
-  checksum: 20073f3f70487e9fa8d40e930d02595c4d96b7db8b2142ee4efe8e0c9a54c844c720370e178aef57c12d2d5bf65592cfdd1d020a74bf2840bc58650590713a35
+  checksum: b64d0e59bc027b2f09e5a84ca32b4f0620553812110e42295a79fd0e6ea664779e575c2d5e8d35a1b0804f0933ec878404c6e161e008b5bc51cba44eaef216ef
   languageName: node
   linkType: hard
 
@@ -9420,7 +9429,7 @@ typescript@4.4.3:
     html-webpack-plugin: 5.3.2
     mini-css-extract-plugin: 2.3.0
     normalize.css: 8.0.1
-    postcss: 8.3.8
+    postcss: 8.3.9
     postcss-loader: 6.1.1
     postcss-preset-env: 6.7.0
     react: 17.0.2
@@ -9438,7 +9447,7 @@ typescript@4.4.3:
     webpack: 5.56.1
     webpack-bundle-analyzer: 4.4.2
     webpack-cli: 4.8.0
-    webpack-dev-server: 4.3.0
+    webpack-dev-server: 4.3.1
   languageName: unknown
   linkType: soft
 
@@ -9524,9 +9533,9 @@ typescript@4.4.3:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:4.3.0":
-  version: 4.3.0
-  resolution: "webpack-dev-server@npm:4.3.0"
+"webpack-dev-server@npm:4.3.1":
+  version: 4.3.1
+  resolution: "webpack-dev-server@npm:4.3.1"
   dependencies:
     ansi-html-community: ^0.0.8
     bonjour: ^3.5.0
@@ -9560,7 +9569,7 @@ typescript@4.4.3:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 7ee8ae969a1eff65caedc7dd935a3bf62f0ca21fdd5d169884cba525d9c970e551fa250f230bda0c57a76cd61411fae5bfcbc104bafff14c9cad7f4a6f9b0022
+  checksum: ce9d054c3de335df4cca4759aaff3a5291487c906b15bd3bb6e41de86e3784b307ae1e2cdd6403424567b0645a0dc6a9dd21b4839ba86176d5097664474d2b68
   languageName: node
   linkType: hard
 
