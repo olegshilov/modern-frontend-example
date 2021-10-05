@@ -6065,14 +6065,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:2.3.0":
-  version: 2.3.0
-  resolution: "mini-css-extract-plugin@npm:2.3.0"
+"mini-css-extract-plugin@npm:2.4.1":
+  version: 2.4.1
+  resolution: "mini-css-extract-plugin@npm:2.4.1"
   dependencies:
     schema-utils: ^3.1.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 3c2f5ff29ba4d85999be36f4414b9b7200751411c6961b1ac7faa8ea5ae09b9e74bcb3b0425dbc94083d57d828449b393e56ccb709c2b5c766d968023726e25d
+  checksum: b12c81d5dbdbfeb927a72ce2c22c09f7fb7cd48e20b53fcf7981865728d45e3e7bab4acef97a73eaf9e01407de2f11bca3a59b6a80c266ab831df997c59a8d61
   languageName: node
   linkType: hard
 
@@ -9185,7 +9185,7 @@ typescript@4.4.3:
     react: 17.0.2
     react-dom: 17.0.2
     typescript: 4.4.3
-    webpack: 5.56.1
+    webpack: 5.57.1
   languageName: unknown
   linkType: soft
 
@@ -9406,7 +9406,7 @@ typescript@4.4.3:
     redux: 4.1.1
     typescript: 4.4.3
     ui-kit: "workspace:*"
-    webpack: 5.56.1
+    webpack: 5.57.1
   languageName: unknown
   linkType: soft
 
@@ -9427,7 +9427,7 @@ typescript@4.4.3:
     cssnano: 5.0.8
     fork-ts-checker-webpack-plugin: 6.3.3
     html-webpack-plugin: 5.3.2
-    mini-css-extract-plugin: 2.3.0
+    mini-css-extract-plugin: 2.4.1
     normalize.css: 8.0.1
     postcss: 8.3.9
     postcss-loader: 6.1.1
@@ -9444,7 +9444,7 @@ typescript@4.4.3:
     typescript: 4.4.3
     ui-kit: "workspace:*"
     web-app-feature: "workspace:*"
-    webpack: 5.56.1
+    webpack: 5.57.1
     webpack-bundle-analyzer: 4.4.2
     webpack-cli: 4.8.0
     webpack-dev-server: 4.3.1
@@ -9599,9 +9599,9 @@ typescript@4.4.3:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.56.1":
-  version: 5.56.1
-  resolution: "webpack@npm:5.56.1"
+"webpack@npm:5.57.1":
+  version: 5.57.1
+  resolution: "webpack@npm:5.57.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -9632,7 +9632,7 @@ typescript@4.4.3:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: e5ead673155a5e9667c8ae5413af18739335b067e03ae4e6daefbf9bf648321267abc706d3c756b17c9224c5e31762c0de212e700cca34ab4ee1e069e7806b8a
+  checksum: 3122608d6ff8925c68b6736cbed41b494c5d8da055e21390910398fe26902588b75c2620d441a53bf1791bf8d240cd3f11df3ab19038ed3265b8b4e381a02a71
   languageName: node
   linkType: hard
 
