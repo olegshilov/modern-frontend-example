@@ -481,9 +481,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:3.50.4":
-  version: 3.50.4
-  resolution: "@blueprintjs/core@npm:3.50.4"
+"@blueprintjs/core@npm:3.51.0":
+  version: 3.51.0
+  resolution: "@blueprintjs/core@npm:3.51.0"
   dependencies:
     "@blueprintjs/colors": ^4.0.0-alpha.1
     "@blueprintjs/icons": ^3.30.2
@@ -503,7 +503,7 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 3c5bda16614d596b3611cf6341a9dc46a3020ce282b7064be11af63081652fcbc0136763cb1c93a071e7ab587317a41e57b3895ec75dd53025af66e1c388abfd
+  checksum: bf94226dea3214bcf3ce1c29ea4c5dbcb832ec5948563702f7fd414d4ce59ef11ee55eacf2b734571cbc23b52e498f4033761dab6d5f763937649680dd1a7029
   languageName: node
   linkType: hard
 
@@ -9193,7 +9193,7 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "ui-kit@workspace:packages/ui-kit"
   dependencies:
-    "@blueprintjs/core": 3.50.4
+    "@blueprintjs/core": 3.51.0
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
     "@types/react": 17.0.27
@@ -9202,7 +9202,7 @@ typescript@4.4.3:
     react: 17.0.2
     react-dom: 17.0.2
     typescript: 4.4.3
-    webpack: 5.57.1
+    webpack: 5.58.0
   languageName: unknown
   linkType: soft
 
@@ -9423,7 +9423,7 @@ typescript@4.4.3:
     redux: 4.1.1
     typescript: 4.4.3
     ui-kit: "workspace:*"
-    webpack: 5.57.1
+    webpack: 5.58.0
   languageName: unknown
   linkType: soft
 
@@ -9431,7 +9431,7 @@ typescript@4.4.3:
   version: 0.0.0-use.local
   resolution: "web-app@workspace:packages/web-app"
   dependencies:
-    "@blueprintjs/core": 3.50.4
+    "@blueprintjs/core": 3.51.0
     "@testing-library/react": 12.1.2
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.2
@@ -9461,7 +9461,7 @@ typescript@4.4.3:
     typescript: 4.4.3
     ui-kit: "workspace:*"
     web-app-feature: "workspace:*"
-    webpack: 5.57.1
+    webpack: 5.58.0
     webpack-bundle-analyzer: 4.4.2
     webpack-cli: 4.9.0
     webpack-dev-server: 4.3.1
@@ -9616,9 +9616,9 @@ typescript@4.4.3:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.57.1":
-  version: 5.57.1
-  resolution: "webpack@npm:5.57.1"
+"webpack@npm:5.58.0":
+  version: 5.58.0
+  resolution: "webpack@npm:5.58.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -9649,7 +9649,7 @@ typescript@4.4.3:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 3122608d6ff8925c68b6736cbed41b494c5d8da055e21390910398fe26902588b75c2620d441a53bf1791bf8d240cd3f11df3ab19038ed3265b8b4e381a02a71
+  checksum: 4ba2dd94fc9e4c1f58d9b6ac2e955dce14e1ae9c2bbe6b92d18512fdad9073404ed67137082244db4aa46d347c62c30121a40127ffe71e283e6baf6aec1d1a52
   languageName: node
   linkType: hard
 
