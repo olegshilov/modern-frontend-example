@@ -25,7 +25,7 @@
     "@testing-library/react": "12.1.2",
     "@types/cssnano": "4.0.1",
     "@types/jest": "27.0.2",
-    "@types/react": "17.0.27",
+    "@types/react": "17.0.28",
     "@types/react-dom": "17.0.9",
     "@types/react-redux": "7.1.19",
     "@types/redux-logger": "3.0.9",
