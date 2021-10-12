@@ -1192,14 +1192,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.28":
-  version: 17.0.28
-  resolution: "@types/react@npm:17.0.28"
+"@types/react@npm:17.0.29":
+  version: 17.0.29
+  resolution: "@types/react@npm:17.0.29"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: c12a078c1a6e64fa1dd7a07048220f2f2b2e571bf70028d1fb952275274776905534464ea176c66303b442b338f3867d087459ee5ef5b8e08fef3cf3da689c61
+  checksum: 39280743f6fec1bbc5c8e705976c1738a5526aaa0e693052badf5cd2dd599b6536dd815b651017737a533bf1c03db6a5738498796ff44f806e55324dc7867723
   languageName: node
   linkType: hard
 
@@ -6203,7 +6203,7 @@ __metadata:
   resolution: "modern-frontend-example@workspace:."
   dependencies:
     "@types/jest": 27.0.2
-    "@types/react": 17.0.28
+    "@types/react": 17.0.29
     "@typescript-eslint/eslint-plugin": 5.0.0
     "@typescript-eslint/parser": 5.0.0
     envinfo: 7.8.1
@@ -6217,7 +6217,7 @@ __metadata:
     prettier: 2.4.1
     react: 17.0.2
     ts-jest: 27.0.5
-    typescript: 4.4.3
+    typescript: 4.4.4
   languageName: unknown
   linkType: soft
 
@@ -9129,23 +9129,23 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@4.4.3:
-  version: 4.4.3
-  resolution: "typescript@npm:4.4.3"
+typescript@4.4.4:
+  version: 4.4.4
+  resolution: "typescript@npm:4.4.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 05823f21796d450531a7e4ab299715d38fd9ded0e4ce7400876053f4b5166ca3dde7a68cecfe72d9086039f03c0b6edba36516fb10ed83c5837d9600532ea4c2
+  checksum: 89ecb8436bb48ef5594d49289f5f89103071716b6e4844278f4fb3362856e31203e187a9c76d205c3f0b674d221a058fd28310dbcbcf5d95e9a57229bb5203f1
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.4.3#~builtin<compat/typescript>":
-  version: 4.4.3
-  resolution: "typescript@patch:typescript@npm%3A4.4.3#~builtin<compat/typescript>::version=4.4.3&hash=ddd1e8"
+"typescript@patch:typescript@4.4.4#~builtin<compat/typescript>":
+  version: 4.4.4
+  resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 79f5c13d21c9dea3eb44d2b7002ff25a0569fefc432e083d65a360e3aca990aca25fc733e14aa6883b5e9a68e3e2f0330a34123e048806f91d701732ece00e6f
+  checksum: bd629ad0da4a15d79aaad56baf3ee7d96f6a181760d430ae77f8c5325df7bffd9edee57544a3970e3651e8b796fe03a5838a7eb39c6d46cc3866c0b23d36a0dd
   languageName: node
   linkType: hard
 
@@ -9156,12 +9156,12 @@ typescript@4.4.3:
     "@blueprintjs/core": 3.51.0
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
-    "@types/react": 17.0.28
+    "@types/react": 17.0.29
     "@types/react-dom": 17.0.9
     astroturf: 1.0.0-beta.22
     react: 17.0.2
     react-dom: 17.0.2
-    typescript: 4.4.3
+    typescript: 4.4.4
     webpack: 5.58.1
   languageName: unknown
   linkType: soft
@@ -9373,7 +9373,7 @@ typescript@4.4.3:
   dependencies:
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
-    "@types/react": 17.0.28
+    "@types/react": 17.0.29
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.19
     astroturf: 1.0.0-beta.22
@@ -9381,7 +9381,7 @@ typescript@4.4.3:
     react-dom: 17.0.2
     react-redux: 7.2.5
     redux: 4.1.1
-    typescript: 4.4.3
+    typescript: 4.4.4
     ui-kit: "workspace:*"
     webpack: 5.58.1
   languageName: unknown
@@ -9395,7 +9395,7 @@ typescript@4.4.3:
     "@testing-library/react": 12.1.2
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.2
-    "@types/react": 17.0.28
+    "@types/react": 17.0.29
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.19
     "@types/redux-logger": 3.0.9
@@ -9418,7 +9418,7 @@ typescript@4.4.3:
     style-loader: 3.3.0
     terser-webpack-plugin: 5.2.4
     ts-loader: 9.2.6
-    typescript: 4.4.3
+    typescript: 4.4.4
     ui-kit: "workspace:*"
     web-app-feature: "workspace:*"
     webpack: 5.58.1
