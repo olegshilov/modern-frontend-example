@@ -472,9 +472,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:3.51.0":
-  version: 3.51.0
-  resolution: "@blueprintjs/core@npm:3.51.0"
+"@blueprintjs/core@npm:3.51.1":
+  version: 3.51.1
+  resolution: "@blueprintjs/core@npm:3.51.1"
   dependencies:
     "@blueprintjs/colors": ^4.0.0-alpha.1
     "@blueprintjs/icons": ^3.30.2
@@ -494,7 +494,7 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: bf94226dea3214bcf3ce1c29ea4c5dbcb832ec5948563702f7fd414d4ce59ef11ee55eacf2b734571cbc23b52e498f4033761dab6d5f763937649680dd1a7029
+  checksum: b5689323eb4772880119b53978e710d25abf0433668faabbaab76e35beff38b3e3aaed771a52fe6ed7059209ba0e17790992e4e0b3b81fef2ddc5aa69c8bfed5
   languageName: node
   linkType: hard
 
@@ -1192,14 +1192,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.29":
-  version: 17.0.29
-  resolution: "@types/react@npm:17.0.29"
+"@types/react@npm:17.0.30":
+  version: 17.0.30
+  resolution: "@types/react@npm:17.0.30"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 39280743f6fec1bbc5c8e705976c1738a5526aaa0e693052badf5cd2dd599b6536dd815b651017737a533bf1c03db6a5738498796ff44f806e55324dc7867723
+  checksum: e3aaac1b8fda6e3622b75db0bd7d8dc412c2f2b77a00afdd32cae8c71fb0b1ca6926ab1fbe1c536dd51d96c0ba372738993837a8df1637637aaab7b86e421b7f
   languageName: node
   linkType: hard
 
@@ -5849,7 +5849,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.memoize@npm:^4.1.2":
+"lodash.memoize@npm:4.x, lodash.memoize@npm:^4.1.2":
   version: 4.1.2
   resolution: "lodash.memoize@npm:4.1.2"
   checksum: 9ff3942feeccffa4f1fafa88d32f0d24fdc62fd15ded5a74a5f950ff5f0c6f61916157246744c620173dddf38d37095a92327d5fd3861e2063e736a5c207d089
@@ -5870,7 +5870,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.x, lodash@npm:^4.17.14, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
+"lodash@npm:^4.17.14, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -6203,7 +6203,7 @@ __metadata:
   resolution: "modern-frontend-example@workspace:."
   dependencies:
     "@types/jest": 27.0.2
-    "@types/react": 17.0.29
+    "@types/react": 17.0.30
     "@typescript-eslint/eslint-plugin": 5.0.0
     "@typescript-eslint/parser": 5.0.0
     envinfo: 7.8.1
@@ -6216,7 +6216,7 @@ __metadata:
     jest: 27.2.5
     prettier: 2.4.1
     react: 17.0.2
-    ts-jest: 27.0.5
+    ts-jest: 27.0.7
     typescript: 4.4.4
   languageName: unknown
   linkType: soft
@@ -8973,15 +8973,15 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:27.0.5":
-  version: 27.0.5
-  resolution: "ts-jest@npm:27.0.5"
+"ts-jest@npm:27.0.7":
+  version: 27.0.7
+  resolution: "ts-jest@npm:27.0.7"
   dependencies:
     bs-logger: 0.x
     fast-json-stable-stringify: 2.x
     jest-util: ^27.0.0
     json5: 2.x
-    lodash: 4.x
+    lodash.memoize: 4.x
     make-error: 1.x
     semver: 7.x
     yargs-parser: 20.x
@@ -9000,7 +9000,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: fd53cdb6f913cbe802799d2b491f70f33c52c840c4b8483cecf600ff360efbd00c8d7ed9eb0dd677219f330ee38928b7b9890e9853e9f4d3574b9d8e1dcf4a30
+  checksum: 3711361cb5ae54aac547b00f8ad118ec88333c391af4bff0420497e9faa296eace4e8272c627ecbf4be675af9f68c437e4c2ccc5693c6d744796ec7da6dda131
   languageName: node
   linkType: hard
 
@@ -9140,10 +9140,10 @@ typescript@4.4.4:
   version: 0.0.0-use.local
   resolution: "ui-kit@workspace:packages/ui-kit"
   dependencies:
-    "@blueprintjs/core": 3.51.0
+    "@blueprintjs/core": 3.51.1
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
-    "@types/react": 17.0.29
+    "@types/react": 17.0.30
     "@types/react-dom": 17.0.9
     astroturf: 1.0.0-beta.22
     react: 17.0.2
@@ -9360,7 +9360,7 @@ typescript@4.4.4:
   dependencies:
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
-    "@types/react": 17.0.29
+    "@types/react": 17.0.30
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.19
     astroturf: 1.0.0-beta.22
@@ -9378,11 +9378,11 @@ typescript@4.4.4:
   version: 0.0.0-use.local
   resolution: "web-app@workspace:packages/web-app"
   dependencies:
-    "@blueprintjs/core": 3.51.0
+    "@blueprintjs/core": 3.51.1
     "@testing-library/react": 12.1.2
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.2
-    "@types/react": 17.0.29
+    "@types/react": 17.0.30
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.19
     "@types/redux-logger": 3.0.9
