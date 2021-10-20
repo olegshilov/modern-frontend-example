@@ -472,12 +472,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:3.51.1":
-  version: 3.51.1
-  resolution: "@blueprintjs/core@npm:3.51.1"
+"@blueprintjs/core@npm:3.51.2":
+  version: 3.51.2
+  resolution: "@blueprintjs/core@npm:3.51.2"
   dependencies:
     "@blueprintjs/colors": ^4.0.0-alpha.1
-    "@blueprintjs/icons": ^3.30.2
+    "@blueprintjs/icons": ^3.31.0
     "@types/dom4": ^2.0.1
     classnames: ^2.2
     dom4: ^2.1.5
@@ -494,17 +494,17 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: b5689323eb4772880119b53978e710d25abf0433668faabbaab76e35beff38b3e3aaed771a52fe6ed7059209ba0e17790992e4e0b3b81fef2ddc5aa69c8bfed5
+  checksum: ee49c12e3b6524d66270a174e41f027c37d6de746850c3d479a9d05a3978148443d302f4534f9e69f9b63ba666b7c34a06d68f9dffcc26131548cfebad68354e
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^3.30.2":
-  version: 3.30.2
-  resolution: "@blueprintjs/icons@npm:3.30.2"
+"@blueprintjs/icons@npm:^3.31.0":
+  version: 3.31.0
+  resolution: "@blueprintjs/icons@npm:3.31.0"
   dependencies:
     classnames: ^2.2
     tslib: ~1.13.0
-  checksum: 06e3573eaf043550ac1f7f0119a27254caaa0cf4ddee248a14641fa4f96a4227df1e1e1b37142853d05bc77393d44ebaca3864c6d6c12e5140567cd182c8346c
+  checksum: 4ec04282140661daf293dc495b35a60ad37549371f2bd56fa18755019f09db44232a3e88bf49a579f7afd55dcba060798518c3f95555a820acbc5620ace450a5
   languageName: node
   linkType: hard
 
@@ -3983,9 +3983,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:6.3.4":
-  version: 6.3.4
-  resolution: "fork-ts-checker-webpack-plugin@npm:6.3.4"
+"fork-ts-checker-webpack-plugin@npm:6.3.5":
+  version: 6.3.5
+  resolution: "fork-ts-checker-webpack-plugin@npm:6.3.5"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -4010,7 +4010,7 @@ __metadata:
       optional: true
     vue-template-compiler:
       optional: true
-  checksum: ad84ccbc990c086e86e988f556bd8a28f5a94e358f044889698d78b4d13d106f61da121081d2cdf58d84f972a2635826c035e5ef70138b92558cec7cf0c7f3a1
+  checksum: 3cb33007a5452c4a0dd3c9510d9f5cedf146770a706a1503afcb8b02b140aaf980e84fec6cf1300b77625e0d385df8faf7410e1f4a6497c616bda2d66929248b
   languageName: node
   linkType: hard
 
@@ -9153,7 +9153,7 @@ typescript@4.4.4:
   version: 0.0.0-use.local
   resolution: "ui-kit@workspace:packages/ui-kit"
   dependencies:
-    "@blueprintjs/core": 3.51.1
+    "@blueprintjs/core": 3.51.2
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
     "@types/react": 17.0.30
@@ -9391,7 +9391,7 @@ typescript@4.4.4:
   version: 0.0.0-use.local
   resolution: "web-app@workspace:packages/web-app"
   dependencies:
-    "@blueprintjs/core": 3.51.1
+    "@blueprintjs/core": 3.51.2
     "@testing-library/react": 12.1.2
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.2
@@ -9402,7 +9402,7 @@ typescript@4.4.4:
     astroturf: 1.0.0-beta.22
     css-loader: 6.4.0
     cssnano: 5.0.8
-    fork-ts-checker-webpack-plugin: 6.3.4
+    fork-ts-checker-webpack-plugin: 6.3.5
     html-webpack-plugin: 5.4.0
     mini-css-extract-plugin: 2.4.2
     normalize.css: 8.0.1
