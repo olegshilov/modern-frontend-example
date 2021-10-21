@@ -1148,24 +1148,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.9":
-  version: 17.0.9
-  resolution: "@types/react-dom@npm:17.0.9"
+"@types/react-dom@npm:17.0.10":
+  version: 17.0.10
+  resolution: "@types/react-dom@npm:17.0.10"
   dependencies:
     "@types/react": "*"
-  checksum: b7e898e1a22643a371f58e801a3d1d8cf13a82d77063c24be73e840ef8d877ca1d04adc5db168d0dac3167dc050a26b1d70efc5fe8566a7f46a3c488a8322989
+  checksum: cc7d8d5b77ee2f3b989c107abd8ec0f2460ba1b1ee6e6d637124e1939594b5619fa4166ef0ea7632a69b68358e0b71aa618de446ccc416dcc0017175549da601
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:7.1.19":
-  version: 7.1.19
-  resolution: "@types/react-redux@npm:7.1.19"
+"@types/react-redux@npm:7.1.20":
+  version: 7.1.20
+  resolution: "@types/react-redux@npm:7.1.20"
   dependencies:
     "@types/hoist-non-react-statics": ^3.3.0
     "@types/react": "*"
     hoist-non-react-statics: ^3.3.0
     redux: ^4.0.0
-  checksum: 32a1b21f6a5e45cd6e78fdb4b86974ea444a35539c3c1270d66132527b2c45051f9642a3e2296616c72407dc019d0629c0183bcca64fbf3ba19443484cb70df7
+  checksum: 5e0405d0d312f1b5e2dd48ab5833d3226295931fe8d276bd0891fafe4dd7ba9efbc74b1e8b30685ba96e9dc1a63d57444ae335785ce6fda96900d5fc9f800dcf
   languageName: node
   linkType: hard
 
@@ -1192,14 +1192,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.30":
-  version: 17.0.30
-  resolution: "@types/react@npm:17.0.30"
+"@types/react@npm:17.0.31":
+  version: 17.0.31
+  resolution: "@types/react@npm:17.0.31"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: e3aaac1b8fda6e3622b75db0bd7d8dc412c2f2b77a00afdd32cae8c71fb0b1ca6926ab1fbe1c536dd51d96c0ba372738993837a8df1637637aaab7b86e421b7f
+  checksum: c2ea547b3e3398f53971908ae34bdb1ca1f2d8f1cf57a6f21c37b2bb77c2e625b5349de69b3c573f969056362eddac4bbac075d5d470716feef4161e26692b83
   languageName: node
   linkType: hard
 
@@ -6209,7 +6209,7 @@ __metadata:
   resolution: "modern-frontend-example@workspace:."
   dependencies:
     "@types/jest": 27.0.2
-    "@types/react": 17.0.30
+    "@types/react": 17.0.31
     "@typescript-eslint/eslint-plugin": 5.1.0
     "@typescript-eslint/parser": 5.1.0
     envinfo: 7.8.1
@@ -6283,12 +6283,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.1.28":
-  version: 3.1.28
-  resolution: "nanoid@npm:3.1.28"
+"nanoid@npm:^3.1.30":
+  version: 3.1.30
+  resolution: "nanoid@npm:3.1.30"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: ae2fa9f3ce7a690ec62fc2fdf92345f023b20db760024f767c25ad392bde6414dc0b44a8e66dc1209426f36e4771e63b09ad2b49d8f1b04063b37e21b46af8d0
+  checksum: 276d0d4b0c41c46aeefec5f09f093e4085a2352d06881c845db22b84f8ef72cc8defae6d76bfb1d8a2a128eb2dec42ab148d16582be4e7754c97905806ef57b6
   languageName: node
   linkType: hard
 
@@ -6812,10 +6812,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "picocolors@npm:0.2.1"
-  checksum: 3b0f441f0062def0c0f39e87b898ae7461c3a16ffc9f974f320b44c799418cabff17780ee647fda42b856a1dc45897e2c62047e1b546d94d6d5c6962f45427b2
+"picocolors@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "picocolors@npm:1.0.0"
+  checksum: a2e8092dd86c8396bdba9f2b5481032848525b3dc295ce9b57896f931e63fc16f79805144321f72976383fc249584672a75cc18d6777c6b757603f372f745981
   languageName: node
   linkType: hard
 
@@ -7623,14 +7623,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.9":
-  version: 8.3.9
-  resolution: "postcss@npm:8.3.9"
+"postcss@npm:8.3.10":
+  version: 8.3.10
+  resolution: "postcss@npm:8.3.10"
   dependencies:
-    nanoid: ^3.1.28
-    picocolors: ^0.2.1
+    nanoid: ^3.1.30
+    picocolors: ^1.0.0
     source-map-js: ^0.6.2
-  checksum: b64d0e59bc027b2f09e5a84ca32b4f0620553812110e42295a79fd0e6ea664779e575c2d5e8d35a1b0804f0933ec878404c6e161e008b5bc51cba44eaef216ef
+  checksum: 9f6f5ddb403fb52cacf502bd42ee7a1b9df9b362db5e68e7129e643511bcdda429bbccf5d27e6d115dd4f0a61c811e6b28a91d2db3cf57ff8825e5a7166cbbd0
   languageName: node
   linkType: hard
 
@@ -9156,13 +9156,13 @@ typescript@4.4.4:
     "@blueprintjs/core": 3.51.2
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
-    "@types/react": 17.0.30
-    "@types/react-dom": 17.0.9
+    "@types/react": 17.0.31
+    "@types/react-dom": 17.0.10
     astroturf: 1.0.0-beta.22
     react: 17.0.2
     react-dom: 17.0.2
     typescript: 4.4.4
-    webpack: 5.59.0
+    webpack: 5.59.1
   languageName: unknown
   linkType: soft
 
@@ -9373,9 +9373,9 @@ typescript@4.4.4:
   dependencies:
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
-    "@types/react": 17.0.30
-    "@types/react-dom": 17.0.9
-    "@types/react-redux": 7.1.19
+    "@types/react": 17.0.31
+    "@types/react-dom": 17.0.10
+    "@types/react-redux": 7.1.20
     astroturf: 1.0.0-beta.22
     react: 17.0.2
     react-dom: 17.0.2
@@ -9383,7 +9383,7 @@ typescript@4.4.4:
     redux: 4.1.1
     typescript: 4.4.4
     ui-kit: "workspace:*"
-    webpack: 5.59.0
+    webpack: 5.59.1
   languageName: unknown
   linkType: soft
 
@@ -9395,9 +9395,9 @@ typescript@4.4.4:
     "@testing-library/react": 12.1.2
     "@types/cssnano": 4.0.1
     "@types/jest": 27.0.2
-    "@types/react": 17.0.30
-    "@types/react-dom": 17.0.9
-    "@types/react-redux": 7.1.19
+    "@types/react": 17.0.31
+    "@types/react-dom": 17.0.10
+    "@types/react-redux": 7.1.20
     "@types/redux-logger": 3.0.9
     astroturf: 1.0.0-beta.22
     css-loader: 6.4.0
@@ -9406,7 +9406,7 @@ typescript@4.4.4:
     html-webpack-plugin: 5.4.0
     mini-css-extract-plugin: 2.4.2
     normalize.css: 8.0.1
-    postcss: 8.3.9
+    postcss: 8.3.10
     postcss-loader: 6.2.0
     postcss-preset-env: 6.7.0
     react: 17.0.2
@@ -9421,7 +9421,7 @@ typescript@4.4.4:
     typescript: 4.4.4
     ui-kit: "workspace:*"
     web-app-feature: "workspace:*"
-    webpack: 5.59.0
+    webpack: 5.59.1
     webpack-bundle-analyzer: 4.5.0
     webpack-cli: 4.9.1
     webpack-dev-server: 4.3.1
@@ -9575,9 +9575,9 @@ typescript@4.4.4:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.59.0":
-  version: 5.59.0
-  resolution: "webpack@npm:5.59.0"
+"webpack@npm:5.59.1":
+  version: 5.59.1
+  resolution: "webpack@npm:5.59.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -9608,7 +9608,7 @@ typescript@4.4.4:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 3ccda49eafb893d61beeb3af8dc1e9c4231c4a8ddc74ec105004d22b1062193c996d789a3e78c72565863441820b3f0d03f35175685085e7a3e4bb4190f2d71d
+  checksum: 6a24f71b640f864e5aa99d4f10ee8d708e4f33524d7ec67ab188ebca27f7002c2cfdd5f051464bf05031047a3accae832ccd1046c88cd1a519f688c7335e7ec3
   languageName: node
   linkType: hard
 
