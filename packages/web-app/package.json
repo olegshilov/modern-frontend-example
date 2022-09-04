@@ -22,7 +22,7 @@
     "web-app-feature": "workspace:*"
   },
   "devDependencies": {
-    "@testing-library/react": "12.1.2",
+    "@testing-library/react": "13.4.0",
     "@types/cssnano": "5.0.0",
     "@types/jest": "27.0.2",
     "@types/react": "17.0.32",
